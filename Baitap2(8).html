@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function kiemTra() {
+            let n = prompt("Nhập chuỗi số nguyên");
+            let arr= n.split(" ");
+            let arr2= [];
+            for (let i = 0; i<arr.length; i++) {
+                arr[i] = Number(arr[i]);
+                console.log(arr[i]);
+                if (Number.isInteger(arr[i]) && Number.isNaN(arr[i] = false)) {
+                    arr2.push(arr[i]);
+                }
+            }
+            arr2.reverse();
+            return arr2
+            
+        }
+        kiemTra();
+    </script>
+</body>
+</html>

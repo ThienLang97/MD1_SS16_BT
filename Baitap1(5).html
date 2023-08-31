@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let a = +prompt("Nhập số a")
+        let b = +prompt("Nhập số b")
+        function kiemTra(x, y) {
+            let next
+            next = x
+            x = y
+            y = next
+            console.log(x);
+            console.log(y);
+        }
+        kiemTra(a, b)
+    </script>
+</body>
+
+</html>

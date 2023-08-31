@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function kiemTra() {
+           let n = prompt("Nhập vào chuỗi số");
+           let arr= n.split(" ");
+        //    Array.isArray(arr)
+           arr.sort((a,b) =>{
+            return a-b
+           });
+           console.log(arr);
+        }
+        kiemTra();
+    </script>
+</body>
+</html>

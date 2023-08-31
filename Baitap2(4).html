@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function kiemTra() {
+        let kt = prompt("Nhập vào 1 kí tự");
+        let arr2= kt.split("");
+        // let arr=Number(arr2)
+        let arr = +arr2
+        console.log(arr);
+        if (typeof arr == "number" && Number.isNaN(arr)==false)  {
+            console.log("Là số", arr);
+        } else {
+            console.log("Ko phải số");
+        }
+        }
+        kiemTra();
+        
+
+    </script>
+</body>
+</html>
